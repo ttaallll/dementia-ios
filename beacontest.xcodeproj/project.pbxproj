@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26A34C441C11D8670026F7F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A34C431C11D8670026F7F9 /* main.m */; };
+		26A34C471C11D8670026F7F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A34C461C11D8670026F7F9 /* AppDelegate.m */; };
+		26A34C4A1C11D8670026F7F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A34C491C11D8670026F7F9 /* ViewController.m */; };
+		26A34C4D1C11D8670026F7F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A34C4B1C11D8670026F7F9 /* Main.storyboard */; };
+		26A34C4F1C11D8670026F7F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A34C4E1C11D8670026F7F9 /* Assets.xcassets */; };
+		26A34C521C11D8670026F7F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A34C501C11D8670026F7F9 /* LaunchScreen.storyboard */; };
+		26A34C8D1C11D8D40026F7F9 /* libkontakt-ios-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A34C8C1C11D8D40026F7F9 /* libkontakt-ios-sdk.a */; };
+		26A34E891C1D17850026F7F9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A34E881C1D17850026F7F9 /* HomeViewController.m */; };
+		26A34E8C1C1D1BC00026F7F9 /* CreateEnvironmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A34E8B1C1D1BC00026F7F9 /* CreateEnvironmentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26A34C3F1C11D8670026F7F9 /* beacontest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beacontest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A34C431C11D8670026F7F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26A34C451C11D8670026F7F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26A34C461C11D8670026F7F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26A34C481C11D8670026F7F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26A34C491C11D8670026F7F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26A34C4C1C11D8670026F7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26A34C4E1C11D8670026F7F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26A34C511C11D8670026F7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26A34C531C11D8670026F7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A34C5B1C11D8D40026F7F9 /* KontaktSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KontaktSDK.h; sourceTree = "<group>"; };
+		26A34C5C1C11D8D40026F7F9 /* KTKAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKAction.h; sourceTree = "<group>"; };
+		26A34C5D1C11D8D40026F7F9 /* KTKActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKActionManager.h; sourceTree = "<group>"; };
+		26A34C5E1C11D8D40026F7F9 /* KTKBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeacon.h; sourceTree = "<group>"; };
+		26A34C5F1C11D8D40026F7F9 /* KTKBeaconDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeaconDevice.h; sourceTree = "<group>"; };
+		26A34C601C11D8D40026F7F9 /* KTKBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeaconManager.h; sourceTree = "<group>"; };
+		26A34C611C11D8D40026F7F9 /* KTKBeaconProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeaconProfile.h; sourceTree = "<group>"; };
+		26A34C621C11D8D40026F7F9 /* KTKBluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBluetoothDevice.h; sourceTree = "<group>"; };
+		26A34C631C11D8D40026F7F9 /* KTKBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBluetoothManager.h; sourceTree = "<group>"; };
+		26A34C641C11D8D40026F7F9 /* KTKCharacteristicDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKCharacteristicDescriptor.h; sourceTree = "<group>"; };
+		26A34C651C11D8D40026F7F9 /* KTKClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKClient.h; sourceTree = "<group>"; };
+		26A34C661C11D8D40026F7F9 /* KTKCloudBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKCloudBeacon.h; sourceTree = "<group>"; };
+		26A34C671C11D8D40026F7F9 /* KTKCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKCompany.h; sourceTree = "<group>"; };
+		26A34C681C11D8D40026F7F9 /* KTKConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKConverter.h; sourceTree = "<group>"; };
+		26A34C691C11D8D40026F7F9 /* KTKDataTransferObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKDataTransferObject.h; sourceTree = "<group>"; };
+		26A34C6A1C11D8D40026F7F9 /* KTKDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKDescriptor.h; sourceTree = "<group>"; };
+		26A34C6B1C11D8D40026F7F9 /* KTKDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKDevice.h; sourceTree = "<group>"; };
+		26A34C6C1C11D8D40026F7F9 /* KTKEddystone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystone.h; sourceTree = "<group>"; };
+		26A34C6D1C11D8D40026F7F9 /* KTKEddystoneDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneDevice.h; sourceTree = "<group>"; };
+		26A34C6E1C11D8D40026F7F9 /* KTKEddystoneFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneFrame.h; sourceTree = "<group>"; };
+		26A34C6F1C11D8D40026F7F9 /* KTKEddystoneRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneRegion.h; sourceTree = "<group>"; };
+		26A34C701C11D8D40026F7F9 /* KTKEddystoneTLM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneTLM.h; sourceTree = "<group>"; };
+		26A34C711C11D8D40026F7F9 /* KTKEddystoneUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneUID.h; sourceTree = "<group>"; };
+		26A34C721C11D8D40026F7F9 /* KTKEddystoneURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneURL.h; sourceTree = "<group>"; };
+		26A34C731C11D8D40026F7F9 /* KTKEddystoneURLConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKEddystoneURLConverter.h; sourceTree = "<group>"; };
+		26A34C741C11D8D40026F7F9 /* KTKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKError.h; sourceTree = "<group>"; };
+		26A34C751C11D8D40026F7F9 /* KTKFirmware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKFirmware.h; sourceTree = "<group>"; };
+		26A34C761C11D8D40026F7F9 /* KTKHexConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKHexConverter.h; sourceTree = "<group>"; };
+		26A34C771C11D8D40026F7F9 /* KTKLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKLocationManager.h; sourceTree = "<group>"; };
+		26A34C781C11D8D40026F7F9 /* KTKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKManager.h; sourceTree = "<group>"; };
+		26A34C791C11D8D40026F7F9 /* KTKNumberConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKNumberConverter.h; sourceTree = "<group>"; };
+		26A34C7A1C11D8D40026F7F9 /* KTKNumberDiscreteConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKNumberDiscreteConverter.h; sourceTree = "<group>"; };
+		26A34C7B1C11D8D40026F7F9 /* KTKNumberLinearConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKNumberLinearConverter.h; sourceTree = "<group>"; };
+		26A34C7C1C11D8D40026F7F9 /* KTKPaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPaging.h; sourceTree = "<group>"; };
+		26A34C7D1C11D8D40026F7F9 /* KTKPagingBeacons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPagingBeacons.h; sourceTree = "<group>"; };
+		26A34C7E1C11D8D40026F7F9 /* KTKPagingConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPagingConfigs.h; sourceTree = "<group>"; };
+		26A34C7F1C11D8D40026F7F9 /* KTKPagingDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPagingDevices.h; sourceTree = "<group>"; };
+		26A34C801C11D8D40026F7F9 /* KTKPagingVenues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPagingVenues.h; sourceTree = "<group>"; };
+		26A34C811C11D8D40026F7F9 /* KTKPublicAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPublicAction.h; sourceTree = "<group>"; };
+		26A34C821C11D8D40026F7F9 /* KTKPublicBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPublicBeacon.h; sourceTree = "<group>"; };
+		26A34C831C11D8D40026F7F9 /* KTKPublicVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKPublicVenue.h; sourceTree = "<group>"; };
+		26A34C841C11D8D40026F7F9 /* KTKRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKRegion.h; sourceTree = "<group>"; };
+		26A34C851C11D8D40026F7F9 /* KTKServiceDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKServiceDescriptor.h; sourceTree = "<group>"; };
+		26A34C861C11D8D40026F7F9 /* KTKStringConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKStringConverter.h; sourceTree = "<group>"; };
+		26A34C871C11D8D40026F7F9 /* KTKSubordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKSubordinate.h; sourceTree = "<group>"; };
+		26A34C881C11D8D40026F7F9 /* KTKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKUser.h; sourceTree = "<group>"; };
+		26A34C891C11D8D40026F7F9 /* KTKUUIDConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKUUIDConverter.h; sourceTree = "<group>"; };
+		26A34C8A1C11D8D40026F7F9 /* KTKVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKVenue.h; sourceTree = "<group>"; };
+		26A34C8B1C11D8D40026F7F9 /* KTKVenueBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKVenueBase.h; sourceTree = "<group>"; };
+		26A34C8C1C11D8D40026F7F9 /* libkontakt-ios-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libkontakt-ios-sdk.a"; sourceTree = "<group>"; };
+		26A34E881C1D17850026F7F9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		26A34E8A1C1D178D0026F7F9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		26A34E8B1C1D1BC00026F7F9 /* CreateEnvironmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateEnvironmentViewController.m; sourceTree = "<group>"; };
+		26A34E8D1C1D1BC90026F7F9 /* CreateEnvironmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateEnvironmentViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A34C3C1C11D8670026F7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A34C8D1C11D8D40026F7F9 /* libkontakt-ios-sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26A34C361C11D8670026F7F9 = {
+			isa = PBXGroup;
+			children = (
+				26A34C411C11D8670026F7F9 /* beacontest */,
+				26A34C401C11D8670026F7F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26A34C401C11D8670026F7F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A34C3F1C11D8670026F7F9 /* beacontest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A34C411C11D8670026F7F9 /* beacontest */ = {
+			isa = PBXGroup;
+			children = (
+				26A34C591C11D8D40026F7F9 /* KontaktSDK */,
+				26A34C451C11D8670026F7F9 /* AppDelegate.h */,
+				26A34C461C11D8670026F7F9 /* AppDelegate.m */,
+				26A34E8D1C1D1BC90026F7F9 /* CreateEnvironmentViewController.h */,
+				26A34E8B1C1D1BC00026F7F9 /* CreateEnvironmentViewController.m */,
+				26A34C481C11D8670026F7F9 /* ViewController.h */,
+				26A34C491C11D8670026F7F9 /* ViewController.m */,
+				26A34E8A1C1D178D0026F7F9 /* HomeViewController.h */,
+				26A34E881C1D17850026F7F9 /* HomeViewController.m */,
+				26A34C4B1C11D8670026F7F9 /* Main.storyboard */,
+				26A34C4E1C11D8670026F7F9 /* Assets.xcassets */,
+				26A34C501C11D8670026F7F9 /* LaunchScreen.storyboard */,
+				26A34C531C11D8670026F7F9 /* Info.plist */,
+				26A34C421C11D8670026F7F9 /* Supporting Files */,
+			);
+			path = beacontest;
+			sourceTree = "<group>";
+		};
+		26A34C421C11D8670026F7F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26A34C431C11D8670026F7F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26A34C591C11D8D40026F7F9 /* KontaktSDK */ = {
+			isa = PBXGroup;
+			children = (
+				26A34C5A1C11D8D40026F7F9 /* Headers */,
+				26A34C8C1C11D8D40026F7F9 /* libkontakt-ios-sdk.a */,
+			);
+			path = KontaktSDK;
+			sourceTree = "<group>";
+		};
+		26A34C5A1C11D8D40026F7F9 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				26A34C5B1C11D8D40026F7F9 /* KontaktSDK.h */,
+				26A34C5C1C11D8D40026F7F9 /* KTKAction.h */,
+				26A34C5D1C11D8D40026F7F9 /* KTKActionManager.h */,
+				26A34C5E1C11D8D40026F7F9 /* KTKBeacon.h */,
+				26A34C5F1C11D8D40026F7F9 /* KTKBeaconDevice.h */,
+				26A34C601C11D8D40026F7F9 /* KTKBeaconManager.h */,
+				26A34C611C11D8D40026F7F9 /* KTKBeaconProfile.h */,
+				26A34C621C11D8D40026F7F9 /* KTKBluetoothDevice.h */,
+				26A34C631C11D8D40026F7F9 /* KTKBluetoothManager.h */,
+				26A34C641C11D8D40026F7F9 /* KTKCharacteristicDescriptor.h */,
+				26A34C651C11D8D40026F7F9 /* KTKClient.h */,
+				26A34C661C11D8D40026F7F9 /* KTKCloudBeacon.h */,
+				26A34C671C11D8D40026F7F9 /* KTKCompany.h */,
+				26A34C681C11D8D40026F7F9 /* KTKConverter.h */,
+				26A34C691C11D8D40026F7F9 /* KTKDataTransferObject.h */,
+				26A34C6A1C11D8D40026F7F9 /* KTKDescriptor.h */,
+				26A34C6B1C11D8D40026F7F9 /* KTKDevice.h */,
+				26A34C6C1C11D8D40026F7F9 /* KTKEddystone.h */,
+				26A34C6D1C11D8D40026F7F9 /* KTKEddystoneDevice.h */,
+				26A34C6E1C11D8D40026F7F9 /* KTKEddystoneFrame.h */,
+				26A34C6F1C11D8D40026F7F9 /* KTKEddystoneRegion.h */,
+				26A34C701C11D8D40026F7F9 /* KTKEddystoneTLM.h */,
+				26A34C711C11D8D40026F7F9 /* KTKEddystoneUID.h */,
+				26A34C721C11D8D40026F7F9 /* KTKEddystoneURL.h */,
+				26A34C731C11D8D40026F7F9 /* KTKEddystoneURLConverter.h */,
+				26A34C741C11D8D40026F7F9 /* KTKError.h */,
+				26A34C751C11D8D40026F7F9 /* KTKFirmware.h */,
+				26A34C761C11D8D40026F7F9 /* KTKHexConverter.h */,
+				26A34C771C11D8D40026F7F9 /* KTKLocationManager.h */,
+				26A34C781C11D8D40026F7F9 /* KTKManager.h */,
+				26A34C791C11D8D40026F7F9 /* KTKNumberConverter.h */,
+				26A34C7A1C11D8D40026F7F9 /* KTKNumberDiscreteConverter.h */,
+				26A34C7B1C11D8D40026F7F9 /* KTKNumberLinearConverter.h */,
+				26A34C7C1C11D8D40026F7F9 /* KTKPaging.h */,
+				26A34C7D1C11D8D40026F7F9 /* KTKPagingBeacons.h */,
+				26A34C7E1C11D8D40026F7F9 /* KTKPagingConfigs.h */,
+				26A34C7F1C11D8D40026F7F9 /* KTKPagingDevices.h */,
+				26A34C801C11D8D40026F7F9 /* KTKPagingVenues.h */,
+				26A34C811C11D8D40026F7F9 /* KTKPublicAction.h */,
+				26A34C821C11D8D40026F7F9 /* KTKPublicBeacon.h */,
+				26A34C831C11D8D40026F7F9 /* KTKPublicVenue.h */,
+				26A34C841C11D8D40026F7F9 /* KTKRegion.h */,
+				26A34C851C11D8D40026F7F9 /* KTKServiceDescriptor.h */,
+				26A34C861C11D8D40026F7F9 /* KTKStringConverter.h */,
+				26A34C871C11D8D40026F7F9 /* KTKSubordinate.h */,
+				26A34C881C11D8D40026F7F9 /* KTKUser.h */,
+				26A34C891C11D8D40026F7F9 /* KTKUUIDConverter.h */,
+				26A34C8A1C11D8D40026F7F9 /* KTKVenue.h */,
+				26A34C8B1C11D8D40026F7F9 /* KTKVenueBase.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26A34C3E1C11D8670026F7F9 /* beacontest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A34C561C11D8670026F7F9 /* Build configuration list for PBXNativeTarget "beacontest" */;
+			buildPhases = (
+				26A34C3B1C11D8670026F7F9 /* Sources */,
+				26A34C3C1C11D8670026F7F9 /* Frameworks */,
+				26A34C3D1C11D8670026F7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beacontest;
+			productName = beacontest;
+			productReference = 26A34C3F1C11D8670026F7F9 /* beacontest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A34C371C11D8670026F7F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = talpais;
+				TargetAttributes = {
+					26A34C3E1C11D8670026F7F9 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 26A34C3A1C11D8670026F7F9 /* Build configuration list for PBXProject "beacontest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26A34C361C11D8670026F7F9;
+			productRefGroup = 26A34C401C11D8670026F7F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26A34C3E1C11D8670026F7F9 /* beacontest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A34C3D1C11D8670026F7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A34C521C11D8670026F7F9 /* LaunchScreen.storyboard in Resources */,
+				26A34C4F1C11D8670026F7F9 /* Assets.xcassets in Resources */,
+				26A34C4D1C11D8670026F7F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A34C3B1C11D8670026F7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A34C4A1C11D8670026F7F9 /* ViewController.m in Sources */,
+				26A34E8C1C1D1BC00026F7F9 /* CreateEnvironmentViewController.m in Sources */,
+				26A34C471C11D8670026F7F9 /* AppDelegate.m in Sources */,
+				26A34C441C11D8670026F7F9 /* main.m in Sources */,
+				26A34E891C1D17850026F7F9 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26A34C4B1C11D8670026F7F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A34C4C1C11D8670026F7F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26A34C501C11D8670026F7F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A34C511C11D8670026F7F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26A34C541C11D8670026F7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26A34C551C11D8670026F7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26A34C571C11D8670026F7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = beacontest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/beacontest/KontaktSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = test.beacontest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26A34C581C11D8670026F7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = beacontest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/beacontest/KontaktSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = test.beacontest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A34C3A1C11D8670026F7F9 /* Build configuration list for PBXProject "beacontest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A34C541C11D8670026F7F9 /* Debug */,
+				26A34C551C11D8670026F7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A34C561C11D8670026F7F9 /* Build configuration list for PBXNativeTarget "beacontest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A34C571C11D8670026F7F9 /* Debug */,
+				26A34C581C11D8670026F7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26A34C371C11D8670026F7F9 /* Project object */;
+}
